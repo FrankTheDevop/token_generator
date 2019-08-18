@@ -15,7 +15,7 @@ module.exports = function (name) {
         level: 'info',
       },
       {
-        path: 'lbseed-api.log',
+        path: 'token_generator.log',
         level: 'debug',
       },
     ],
