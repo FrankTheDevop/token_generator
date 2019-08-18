@@ -17,6 +17,7 @@ module.exports = function (System) {
     const token = await Token.generate(email)
     logger.debug(`Generated new token: ${token}`)
 
-    return Promise.resolve(Token.saveIt(email, token))
+    await Token.saveIt(email, token)
+    return Promise.resolve(token)
   }
 }

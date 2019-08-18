@@ -20,9 +20,8 @@
       ],
       "returns": [
         {
-          "arg": "name",
+          "arg": "token",
           "type": "string",
-          "root": true,
           "description": ""
         }
       ],
