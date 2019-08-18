@@ -1,0 +1,10 @@
+{
+  "internal": {
+    "name": "internal",
+    "connector": "memory"
+  },
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  }
+}

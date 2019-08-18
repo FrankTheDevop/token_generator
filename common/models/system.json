@@ -1,0 +1,35 @@
+{
+  "name": "System",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {},
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {
+    "generateToken": {
+      "accepts": [
+        {
+          "arg": "email",
+          "type": "string"
+        }
+      ],
+      "returns": [
+        {
+          "arg": "name",
+          "type": "string",
+          "root": true,
+          "description": ""
+        }
+      ],
+      "description": "Generate a user token",
+      "http": {
+        "verb": "get"
+      }
+    }
+  }
+}
